@@ -1,0 +1,138 @@
+body{
+   background: #000;
+   max-width: 1300px;
+   min-width: 1300px;
+   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.site{
+   min-width: 1300px;
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+.header-line{
+   height: 10px;
+   width: 100%;
+   background: #00F0FF;
+   margin: 0 auto;
+}
+
+#canvas1{
+   width: 522px;
+   height: 161px;
+
+   margin: 29px 389px 19px 389px;
+}
+
+.fa{
+   color: rgb(0, 0, 0);
+   width: 50px;
+   height: 50px;
+}
+
+.search-top{
+   display: flex;
+   justify-content: center;
+   width: 600px;
+   height: 60px;
+   margin: 0 auto;
+
+   text-align: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 60px;
+}
+
+.search-inp{
+   border: none;
+   outline: none;
+
+   font-size: 30px;
+   text-align: center;
+   color: #000;
+   width: 512px;
+   border-radius: 30px 0px 0px 30px;
+   background:  linear-gradient(180deg, #FFFFFF 82.29%, #444141 100%);
+}
+
+.search{
+   border: none;
+   border-radius: 0 30px 30px 0;
+   width: 88px;
+   height: 60px;
+   line-height: 60px;
+   background:  linear-gradient(180deg, rgba(0, 133, 255, 1) 82.29%, #444141 100%);
+}
+
+.cotigory-text{
+   display: flex;
+   width: 865px;
+   margin: 0 auto;
+   position: relative;
+   margin-top: 20px;
+   justify-content: space-between;
+}
+
+.cotigory-texts{
+   display: flex;
+   justify-content: space-around;
+   cursor: pointer;
+   font-family: 'Inter';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 30px;
+   user-select: none;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+}
+
+.cotigory-line{
+   border-bottom: 5px solid #00A9F1;
+   width: 65px;
+   border-radius: 2.5px;
+}
+
+.display-none{
+   display: none;
+}
+
+.text-1{
+   border-bottom: 5px solid #00A9F1;
+   width: 90px;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+}
+
+.df{
+   display: flex;
+}
+h2{
+   color: white;
+   font-size: 2rem;
+}
+
+.link{
+   max-width: 900px;
+   margin: 40px 0;
+   text-align: start;
+   overflow: hidden;
+}
+#result{
+   margin: 0 auto;
+   width: 1000px;
+}
+p{
+   color: #FFFFFF;
+}
+.fa{
+   font-size: 50px;
+}
